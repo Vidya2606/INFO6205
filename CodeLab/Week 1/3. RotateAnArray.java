@@ -18,6 +18,6 @@ public void reverse(int[] nums, int start, int end){
         nums[start] = nums[end];
         nums[end] = temp;
         start++;
-        end++;
+        end++;  // decrement end "end--" or you get the exception, java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 7
     }
 }
