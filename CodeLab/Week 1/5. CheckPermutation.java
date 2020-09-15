@@ -12,7 +12,7 @@ public boolean checkPermutation(String s1, String s2) {
         char c1 = s1.charAt(i);
         count.put(c1, count.getOrDefault(c1, 0) + 1);
         char c2 = s2.charAt(i);
-        count.put(c2, count.get(OrDefault) - 1);
+        count.put(c2, count.get(OrDefault) - 1);  // COMMENTS: Error here it should be count.getOrDefault
     }
 
     // if any value of the entry is not zero, s1 and s2 are not permutation of each other
