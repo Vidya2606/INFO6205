@@ -14,3 +14,10 @@ public int twoSumProblem(int[] nums, int target){
         }
     }
 }
+
+/**
+Your solution should return the indices in the array format
+Eg. Nums = [2,4,5,7]  target = 9
+Return [1,2] ------- nums[1] + nums[2] = 4 + 5 = 9 (target)
+*/
+
